@@ -5,7 +5,7 @@
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
-Anyone studying climate change data. A language would help perform manupulations on climate specific datasets, and visualize it in a manner that is specific to weather and climate visualisation. 
+Anyone studying climate change data. A language would help perform manupulations on climate specific datasets, and visualize it in a manner that is specific to weather and climate visualisation - while also being interactive, if need be. (Interactive outputs) 
 
 ### What's the need?
 
@@ -65,6 +65,8 @@ do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
 
 I couldn't find anything specifically like this, but multiple tools do exist that either do parts of it, or do too much (general PLs) and thus make it hard to specialize.
+
+Even R is general in comparison, and it's output is often static compared to what is necessary for communication.
 
 ## The Project
 
