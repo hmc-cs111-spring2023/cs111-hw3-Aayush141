@@ -55,15 +55,25 @@ An example, here, "dolphin with wings, and with ramen" to us obviously means a D
 _Why is a DSL appropriate for your user(s)? How does it address the need?_
 
 LOOP(Draw, 25)
+
 Draw { 
+
   main ( Dolphin, n1)
+  
   strongWith ( Wings, n2 )
+  
   n2.color (grey)
+  
   weakWith (Ramen Noodles)
+  
   widthBorder( 10 pixels ) 
+  
   backgroundColor (green) 
+  
   imageShape ( Polygon (12) )
+  
   style (Van Gogh)
+  
 }
 
 Dalle either creates something weird or requires a lot of step by step instructions and nudging. It also only produces one output each time, requiring users to repeat the process multiple times until they get an artwork that they can work with. The loop (LOOP) feature inside the DSL can help produce multiple outputs in one instance. You can also change the code very easily, and add or remove instructions as you please. The functions aim to reduce ambiguity and provide as many instructions as you can. 
@@ -95,15 +105,25 @@ like? Why is this the right way to interact with the problem domain?_
 I have pasted an example of what code would look like in previous prompts : 
 
 LOOP(Draw, 25)
+
 Draw { 
+
   main ( Dolphin, n1)
+  
   strongWith ( Wings, n2 )
+  
   n2.color (grey)
+  
   weakWith (Ramen Noodles)
+  
   widthBorder( 10 pixels ) 
+  
   backgroundColor (green) 
+  
   imageShape ( Polygon (12) )
+  
   style (Van Gogh)
+  
 }
 
 It looks somewhat like a programming language, with functions and loops. It has some resemblance with ContextFree and HTML/CSS. Both allow you to toggle around such parameters to produce visual outputs. But this DSL acts as an interface with an AI while doing so. The "LOOP... 25" indicates that this program will produce 25 different images with the same input, and the artist can pick one.  
