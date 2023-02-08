@@ -20,15 +20,25 @@ Artists and AI art are viewed as antagonistic to one and another. When In fact A
 Creating an art DSL, much like ContextFree, that also allows artists to incorporate the AI smarts of DallE would be a really powerful tool. 
 
 LOOP(Draw, 25)
+
 Draw { 
-  main ( Dolphin, n1) /n
-  strongWith ( Wings, n2 )  /n
+
+  main ( Dolphin, n1)
+  
+  strongWith ( Wings, n2 )
+  
   n2.color (grey)
+  
   weakWith (Ramen Noodles)
+  
   widthBorder( 10 pixels ) 
+  
   backgroundColor (green) 
+  
   imageShape ( Polygon (12) )
+  
   style (Van Gogh)
+  
 }
 
 
