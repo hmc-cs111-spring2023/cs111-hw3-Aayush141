@@ -21,8 +21,8 @@ Creating an art DSL, much like ContextFree, that also allows artists to incorpor
 
 LOOP(Draw, 25)
 Draw { 
-  main ( Dolphin, n1)
-  strongWith ( Wings, n2 )
+  main ( Dolphin, n1) /n
+  strongWith ( Wings, n2 )  /n
   n2.color (grey)
   weakWith (Ramen Noodles)
   widthBorder( 10 pixels ) 
